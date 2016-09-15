@@ -7,4 +7,4 @@
 (defun main ()
   (format t "Got arguments: ~a~%" (uiop:command-line-arguments))
   (format t "Got raw arguments: ~a~%" (uiop:raw-command-line-arguments))
-  0)
+  (uiop:quit 0))
