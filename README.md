@@ -5,9 +5,9 @@ This code serves two purposes:
 
 For the latter, please see also
 
-  https://bugs.launchpad.net/asdf/+bug/1607988
-  https://gitlab.common-lisp.net/cmucl/cmucl/issues/29
-  https://gitlab.common-lisp.net/xcvb/cl-launch/issues/2
+ - https://bugs.launchpad.net/asdf/+bug/1607988
+ - https://gitlab.common-lisp.net/cmucl/cmucl/issues/29
+ - https://gitlab.common-lisp.net/xcvb/cl-launch/issues/2
 
 To get going, run e.g.
 
