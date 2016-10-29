@@ -17,17 +17,17 @@ from within an interpreter before, this should now be as simple as
 e.g. (up to a difference in version)
 
 ```shell
-$ export CL_SOURCE_REGISTRY=$HOME/quicklisp/dists/quicklisp/software/command-line-arguments-20151218-git/
+% export CL_SOURCE_REGISTRY=$HOME/quicklisp/dists/quicklisp/software/command-line-arguments-20151218-git/
 ```
 
 You can then run, e.g.
 
 ```shell
-ccl --no-init --batch < build.lisp
-cmucl -noinit -nositeinit -batch < build.lisp
-ecl --norc --shell build.lisp
-lispworks-console -build build.lisp
-sbcl --no-sysinit --no-userinit --script build.lisp
+% ccl --no-init --batch < build.lisp
+% cmucl -noinit -nositeinit -batch < build.lisp
+% ecl --norc --shell build.lisp
+% lispworks-console -build build.lisp
+% sbcl --no-sysinit --no-userinit --script build.lisp
 ```
 
 to build an executable named fancy-echo in the current directory. It can be run e.g. as follows:
