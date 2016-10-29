@@ -8,8 +8,13 @@ arguments.
 
 To get going, first make sure that `command-line-arguments` (the sole
 dependency of this project) is installed in such a way that your
-compiler will be able to find it. If you're using quicklisp, this
-could mean setting the environment variable
+compiler will be able to find it. If you've run
+```common-lisp
+(ql:quickload "command-line-arguments")
+```
+
+from within an interpreter before, this should now be as simple as
+e.g. (up to a difference in version)
 
 ```shell
 $ export CL_SOURCE_REGISTRY=$HOME/quicklisp/dists/quicklisp/software/command-line-arguments-20151218-git/
